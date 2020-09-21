@@ -86,7 +86,7 @@ namespace YTThumbnailDownloader {
                         MsgLabel.Text = "Try a youtube.com or youtu.be link instead.";
                         break;
                     case ErrorTypes.exception:
-                        MsgLabel.Text = "An error occurred.";
+                        MsgLabel.Text = "An error has occurred.";
                         break;
                 }
             });        

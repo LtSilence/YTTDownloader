@@ -35,15 +35,16 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(426, 4);
+            this.label1.Location = new System.Drawing.Point(7, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 32);
+            this.label1.Size = new System.Drawing.Size(77, 28);
             this.label1.TabIndex = 0;
-            this.label1.Text = "LINK:";
+            this.label1.Text = "Link:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LinkBox
@@ -54,9 +55,9 @@
             this.LinkBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LinkBox.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LinkBox.ForeColor = System.Drawing.Color.White;
-            this.LinkBox.Location = new System.Drawing.Point(12, 39);
+            this.LinkBox.Location = new System.Drawing.Point(89, 12);
             this.LinkBox.Name = "LinkBox";
-            this.LinkBox.Size = new System.Drawing.Size(910, 30);
+            this.LinkBox.Size = new System.Drawing.Size(833, 30);
             this.LinkBox.TabIndex = 1;
             this.LinkBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.LinkBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LinkBox_KeyDown);
@@ -69,25 +70,25 @@
             this.thumbBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.thumbBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.thumbBox.InitialImage = null;
-            this.thumbBox.Location = new System.Drawing.Point(12, 123);
+            this.thumbBox.Location = new System.Drawing.Point(12, 73);
             this.thumbBox.Name = "thumbBox";
-            this.thumbBox.Size = new System.Drawing.Size(910, 501);
+            this.thumbBox.Size = new System.Drawing.Size(910, 503);
             this.thumbBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.thumbBox.TabIndex = 2;
             this.thumbBox.TabStop = false;
             // 
             // DownloadButton
             // 
-            this.DownloadButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.DownloadButton.FlatAppearance.BorderSize = 0;
+            this.DownloadButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.DownloadButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.WindowFrame;
             this.DownloadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DownloadButton.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DownloadButton.ForeColor = System.Drawing.Color.White;
-            this.DownloadButton.Location = new System.Drawing.Point(393, 75);
+            this.DownloadButton.Location = new System.Drawing.Point(614, 582);
             this.DownloadButton.Name = "DownloadButton";
             this.DownloadButton.Size = new System.Drawing.Size(151, 42);
             this.DownloadButton.TabIndex = 3;
-            this.DownloadButton.Text = "DOWNLOAD";
+            this.DownloadButton.Text = "Download";
             this.DownloadButton.UseVisualStyleBackColor = true;
             this.DownloadButton.Click += new System.EventHandler(this.DownloadButton_Click);
             // 
@@ -102,7 +103,7 @@
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(151, 42);
             this.SaveButton.TabIndex = 4;
-            this.SaveButton.Text = "SAVE";
+            this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
             this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
@@ -111,7 +112,7 @@
             this.MsgLabel.AutoSize = true;
             this.MsgLabel.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MsgLabel.ForeColor = System.Drawing.Color.White;
-            this.MsgLabel.Location = new System.Drawing.Point(12, 23);
+            this.MsgLabel.Location = new System.Drawing.Point(12, 57);
             this.MsgLabel.Name = "MsgLabel";
             this.MsgLabel.Size = new System.Drawing.Size(31, 13);
             this.MsgLabel.TabIndex = 5;
